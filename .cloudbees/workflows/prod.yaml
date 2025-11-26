@@ -17,3 +17,9 @@ jobs:
           labels: jenkins
           artifact-id: a0502153-c29b-4372-b50a-777c890145ca
           target-environment: Production
+      - uses: cloudbees-io/register-deployed-artifact@v2
+        with:
+          labels: jenkins
+          artifact-id: a0502153-c29b-4372-b50a-777c890145ca
+          target-environment: Production
+          
